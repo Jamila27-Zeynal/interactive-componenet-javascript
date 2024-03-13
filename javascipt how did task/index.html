@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İnteractive Component </title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-container">
+            <div class="rating-section">
+                <div class="icon">
+                    <img src="./icon-star.svg" alt="star">
+                </div>
+                <h2 class="title">
+                    How did we do?
+                </h2>
+                <p class="desciption">
+                    Please let us know how we did with your support request.All feedbackis appreciated to help us
+                    improve our offering!
+                </p>
+                <div class="rating">
+                    <button id="circle">1</button>
+                    <button id="circle">2</button>
+                    <button id="circle">3</button>
+                    <button id="circle">4</button>
+                    <button >5</button>
+                </div>
+                <button class="btn-class">
+                    Submit
+                </button>
+            </div>
+            <div class="thank-section hidden">
+                <img src="./illustration-thank-you.svg" alt="thank">
+                <div class="chip">
+                    <p>You selected 4 <span id="rate">out of 5</span>
+                    </p>
+                </div>
+                <h2 class="title">
+                    Thank You!
+                </h2>
+                <p class="description">
+                    We appericate you taking the time togive a rating.If you ever need more support,don't hesitate to
+                    get in touch!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
